@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+//var table = UITableViewController()
+    
+    @IBOutlet weak var collegeName: UILabel!
+    @IBOutlet weak var UserName: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
+        
+        collegeName.text = colleges[myIndex]
+        UserName.text =
+        
+        }
 
 }
-
